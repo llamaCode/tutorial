@@ -8,6 +8,9 @@ float sunX, sunY;
 void setup()
 {
   size( 600, 400 );
+  reset();
+}
+void reset() {
   sunX=  width/2;         // Start the sun half-way across the screen.
   sunY=  50;
 }
@@ -56,7 +59,7 @@ void messages() {
 
 //// EVENT HANDLERS ////
 void mousePressed() {
-  sunX=0;
+  reset();
 }
 void keyPressed() {
   if (key == 'q') {
