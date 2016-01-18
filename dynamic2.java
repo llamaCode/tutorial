@@ -30,11 +30,11 @@ void scene() {
 
 //// ACTION:  sun moves (then resets to random height)
 void action() {
-  sunX=  sunX + 1;
   if (sunX > width) {
     sunX=  0;
     sunY=  random( 20, 120 );
   }
+  sunX=  sunX + 1;
 }
 
 //// SHOW:  creature follows mouse
