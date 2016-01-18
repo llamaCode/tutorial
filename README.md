@@ -29,7 +29,7 @@
                         ellipse( width/2, 50, 30,30 );                  // Yellow sun
             }
 ```
-* Variables must be declared.  (Use only __```float```__ for now.)
+* Variables must be declared.  (Use only the __```float```__ type for now.)
 ```
             float x=200, y=300;     // Starting position of creature.
             float sunX=50, sunY=50; // Starting position for the sun.
