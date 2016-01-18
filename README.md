@@ -67,9 +67,9 @@
             }
 ```
 
-### Examine and run this code from  
+#### Examine and run this code from  
 
-            https://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java .
+            https://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java 
 
 ## Modularize:  
 * Organize the code using bite-sized pieces (blocks).
@@ -83,7 +83,7 @@
                         messages();
             }
 ```
-### Examine this code, then make your own modifications and run it!
+#### Examine this code, then make your own modifications and run it!
 
             https://raw.githubusercontent.com/61cst112/tutorial/master/dynamic2.java 
 
