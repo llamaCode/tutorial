@@ -8,7 +8,9 @@ float sunX, sunY;
 void setup()
 {
             size( 600, 400 );
-            sunX=  width/2;         // Start the sun half-way across the screen.
+
+            // RESET:  // Start the sun half-way across the screen.
+            sunX=  width/2;
             sunY=  50;
 }
 
