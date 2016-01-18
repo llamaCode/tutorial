@@ -19,10 +19,10 @@ void draw()
             background( 150, 200, 250 );                    // Blue sky
             fill( 255, 255, 0 );
             ellipse( sunX, sunY, 30,30 );                   // Yellow sun
-            sunX=  sunX + 1;
             if (sunX > width) {
                         sunX=  0;
             }
+            sunX=  sunX + 1;
 
             // SHOW:  creature follows mouse
             fill( 0,0,200 );
