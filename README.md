@@ -48,7 +48,7 @@
             void setup()
             {
                         size( 600, 400 );
-                        sunX=  width/2;         // Start the sun half-way across the screen.
+                        sunX=  width/2;                     // Reset the sun position.
                         sunY=  50;
             }
 
@@ -56,9 +56,9 @@
             void draw()
             {
                         // SCENE:
-                        background( 150, 200, 250 );                    // Blue sky
+                        background( 150, 200, 250 );        // Blue sky
                         fill( 255, 255, 0 );
-                        ellipse( sunX, sunY, 30,30 );                   // Yellow sun
+                        ellipse( sunX, sunY, 30,30 );       // Yellow sun
 
                         // ACTION:
                         sunX=  sunX + 1;
@@ -66,8 +66,10 @@
 
                         // SHOW:
                         fill( 0,0,200 );
-                        rect( mouseX, mouseY, 50, 80 );                 // Blue creature
-                        ellipse( mouseX+25, mouseY-20, 40,40 );
+                        x=  mouseX;
+                        y=  mouseY;
+                        rect( x, y, 50, 80 );               // Blue creature
+                        ellipse( x+25, y-20, 40,40 );       // Head
             }
 ```
 
