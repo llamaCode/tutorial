@@ -83,8 +83,8 @@
             }
 ```
 
-#### Examine and run this code from  
-(http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java)
+#### Examine and run this code:    
+  [http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java](http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java)
 
 
 ## Modularize:  
