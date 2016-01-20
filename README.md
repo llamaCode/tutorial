@@ -34,7 +34,7 @@
             float x=200, y=300;     // Starting position of creature.
             float sunX=50, sunY=50; // Starting position for the sun.
             
-            //// ZOOG:  draw a creature at (x,y)   ![dynamic1](http://suffolk.li/img/d1.png)
+            //// ZOOG:  draw a creature at (x,y)
 
             {
                         fill( 255,0,255 );                              // Magenta
@@ -42,7 +42,7 @@
                         ellipse( x+25,y-20, 40,40 );                    // Head
             }
 ```      
-
+   ![dynamic1](http://suffolk.li/img/d1zz.png)
 ## For dynamic sketches,
   1. put setup code in a ```setup( )``` method _(called once)_, and
   2. code to draw each frame in a ```draw( )``` method _(called repeatedly)_:
