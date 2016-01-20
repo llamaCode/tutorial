@@ -80,10 +80,6 @@
                         fill( 255 );
                         ellipse( x+15,y-25, 12,12 );        // Eyes
                         ellipse( x+35,y-25, 12,12 );
-                        fill( 0,0,255 );
-                        ellipse( x+15,y-25, 4,4 );
-                        ellipse( x+35,y-25, 4,4 );
-                        
             }
 ```
 
