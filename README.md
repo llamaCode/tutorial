@@ -10,8 +10,8 @@
 ```
             // Draw a red house, with roof.
             fill( 255, 0, 0 );                              // Red house
-            rect( 100,100, 50,50 );
-            triangle( 100,100, 150,100, 125,50 );           // Roof.
+            rect( 100,100, 100,50 );
+            triangle( 100,100, 200,100, 150,50 );           // Roof
 ```               
 * Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*:  ![d1zz](http://suffolk.li/img/h.png)
 ```
@@ -60,14 +60,18 @@
                         sunY=  50;
             }
 
-            //// DRAW:  sky & sun plus creature
+            //// DRAW:  sky, sun, house plus creature
             void draw()
             {
                         // SCENE:
                         background( 150, 200, 250 );        // Blue sky
                         fill( 255, 255, 0 );
                         ellipse( sunX, sunY, 30,30 );       // Yellow sun
-
+                        // Draw a red house, with roof.
+                        fill( 255, 0, 0 );                  // Red house
+                        rect( 100,100, 100,50 );
+                        triangle( 100,100, 200,100, 150,50 );
+                        
                         // ACTION:
                         sunX=  sunX + 1;
                         if (sunX > width) sunX=  0;
