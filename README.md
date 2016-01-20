@@ -85,7 +85,8 @@
 ```
 
 #### _Examine and run this code:_    
-  [http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java](http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java)      ![dynamic1](http://suffolk.li/img/d1.png)
+  [http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java](http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java)  
+  ![dynamic1](http://suffolk.li/img/d1.png)
 
 
 ## Modularize:  
