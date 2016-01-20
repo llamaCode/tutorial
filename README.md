@@ -1,5 +1,6 @@
 # Tutorial on the _Processing_ Programming Language.
-## Syntax Rules <img src="http://suffolk.li//cst112/61cst112/students/img/p.jpg" width=64 align=middle hspace=100 >
+<img src="http://suffolk.li//cst112/61cst112/students/img/p.jpg" width=64 align=RIGHT hspace=100 >
+## Syntax Rules
 * Double-slash __//__ begins a *comment*.  (The remainder of the line is ignored by compiler.)
 ```
             // Always begin with a comment that says what you are trying to do!
@@ -86,9 +87,9 @@
             }
 ```
 
-#### _Examine and run this code:_    
+#### _Examine and run this code:_
+<IMG SRC="http://suffolk.li/img/d1.png" ALIGN=RIGHT>
   [http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java](http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java)  
-  ![dynamic1](http://suffolk.li/img/d1.png)
 
 
 ## Modularize:  
