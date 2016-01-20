@@ -83,7 +83,7 @@
             }
 ```
 
-#### Examine and run this code:    
+#### _Examine and run this code:_    
   [http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java](http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java)
 
 
@@ -99,7 +99,6 @@
                         messages();
             }
 ```
-#### Examine this code, then make your own modifications and run it!
-
-            https://raw.githubusercontent.com/61cst112/tutorial/master/dynamic2.java
+#### _Examine this code, then make your own modifications and run it!_  
+  [http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic2.java](http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic2.java)
 
