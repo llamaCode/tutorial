@@ -103,4 +103,3 @@
 ```
 #### _Examine this code, then make your own modifications and run it!_  
   [http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic2.java](http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic2.java)
-
