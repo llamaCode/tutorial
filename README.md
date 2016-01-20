@@ -12,7 +12,8 @@
             fill( 255, 0, 0 );                              // Red house
             rect( 100,100, 50,50 );
             triangle( 100,100, 150,100, 125,50 );           // Roof.
-```               ![d1zz](http://suffolk.li/img/d1zz.png)  
+```               
+![d1zz](http://suffolk.li/img/d1zz.png)  
 * Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*:
 ```
             //// SETUP:  Define screen size, set modes.
