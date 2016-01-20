@@ -85,10 +85,10 @@
 
 #### Examine and run this code from  
 
-            [link to Google!](http://google.com)
-            [d1](http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java)
+[link to Google!](http://google.com)
+[d1](http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java)
 
-            [] (http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java)
+[] (http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java)
 
 ## Modularize:  
 * Organize the code using bite-sized pieces (blocks).
