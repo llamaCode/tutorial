@@ -34,7 +34,8 @@
             float x=200, y=300;     // Starting position of creature.
             float sunX=50, sunY=50; // Starting position for the sun.
             
-            //// ZOOG:  draw a creature at (x,y)
+            //// ZOOG:  draw a creature at (x,y)   ![dynamic1](http://suffolk.li/img/d1.png)
+
             {
                         fill( 255,0,255 );                              // Magenta
                         rect( x,y, 50,80 );                             // Body
