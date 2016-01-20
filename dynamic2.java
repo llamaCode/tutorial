@@ -52,11 +52,11 @@ void show() {
 //// MESSAGES.
 void messages() {
   fill(0);
-  text( "Example of a dynamic sketch.", width/3, 10 );
+  text( "Dynamic sketch -- modularized.", width/3, 10 );
   text( "Creature follows the mouse, while sun moves across the sky.", width/3, 20 );
   text( "Click to reset sun.\n  Press 's' key to lower the sun, 'q' to quit.", 10, 100 );
   // Also display the author and file name.
-  text( "B.A.Martin / dynamic1.java", 10, height-10 );
+  text( "B.A.Martin / dynamic2.java", 10, height-10 );
 }
 
 
