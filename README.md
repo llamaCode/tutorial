@@ -33,6 +33,13 @@
 ```
             float x=200, y=300;     // Starting position of creature.
             float sunX=50, sunY=50; // Starting position for the sun.
+            
+            //// ZOOG:  draw a creature at (x,y)
+            {
+                        fill( 255,0,255 );                              // Magenta
+                        rect( x,y, 50,80 );                             // Body
+                        ellipse( x+25,y-20, 40,40 );                    // Head
+            }
 ```            
 ## For dynamic sketches,
   1. put setup code in a ```setup( )``` method _(called once)_, and
@@ -70,6 +77,13 @@
                         y=  mouseY;
                         rect( x, y, 50, 80 );               // Blue creature
                         ellipse( x+25, y-20, 40,40 );       // Head
+                        fill( 255 );
+                        ellipse( x+15,y-25, 12,12 );        // Eyes
+                        ellipse( x+35,y-25, 12,12 );
+                        fill( 0,0,255 );
+                        ellipse( x+15,y-25, 4,4 );
+                        ellipse( x+35,y-25, 4,4 );
+                        
             }
 ```
 
