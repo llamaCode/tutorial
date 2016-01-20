@@ -4,7 +4,7 @@
 ```
             // Always begin with a comment that says what you are trying to do!
 ```
-* Semicolon __;__ must end each statement.
+* Semicolon __;__ must end each statement.  <img src= "http://suffolk.li/img/h.png" hspace=100 ALIGN=RIGHT >
 ```
             // Draw a red house, with roof.
             fill( 255, 0, 0 );                              // Red house
@@ -12,7 +12,6 @@
             triangle( 100,100, 200,100, 150,50 );           // Roof
 ```               
 * Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*:
-<img src= "http://suffolk.li/img/h.png" hspace=100 ALIGN=RIGHT >
 ```
             //// SETUP:  Define screen size, set modes.
             {
