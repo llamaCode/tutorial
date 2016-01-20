@@ -85,7 +85,7 @@
 
 #### Examine and run this code from  
 
-            ( https://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java )
+            [dynamic1] ( https://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java )
 
 ## Modularize:  
 * Organize the code using bite-sized pieces (blocks).
