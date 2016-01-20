@@ -26,11 +26,14 @@ void draw()
 }
 
 
-//// SCENE:  sky, sun.
+//// SCENE:  sky, sun, house.
 void scene() {
-  background( 150, 200, 250 );      // Blue sky
+  background( 150, 200, 250 );          // Blue sky
   fill( 255, 255, 0 );
-  ellipse( sunX, sunY, 30, 30 );    // Yellow sun
+  ellipse( sunX, sunY, 30, 30 );        // Yellow sun
+  fill( 255, 0, 0 );
+  rect( 100,100, 100,50 );              // Red house
+  triangle( 100,100, 200,100, 150,50 );
 }
 
 //// MESSAGES.
@@ -38,7 +41,7 @@ void messages() {
   fill(0);
   text( "Dynamic sketch -- modularized.", width/3, 10 );
   text( "Creature follows the mouse, while sun moves across the sky.", width/3, 20 );
-  text( "Click to reset sun.\n  Press 's' key to lower the sun, 'q' to quit.", 10, 100 );
+  text( "Click to reset sun.\n  Press 's' key to lower the sun, 'q' to quit.", 10, height/2 );
   // Also display the author and file name.
   text( "B.A.Martin / dynamic2.java", 10, height-10 );
 }
