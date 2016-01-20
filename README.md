@@ -41,8 +41,8 @@
                         ellipse( x+25,y-20, 40,40 );                    // Head
             }
 ```      
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![Creature](https://avatars3.githubusercontent.com/u/16676162?v=3&s=200)
+
 ## For dynamic sketches,
   1. put setup code in a ```setup( )``` method _(called once)_, and
   2. code to draw each frame in a ```draw( )``` method _(called repeatedly)_:
