@@ -1,5 +1,5 @@
 # Tutorial on the _Processing_ Programming Language.
-## Syntax Rules . . . <img src="http://suffolk.li//cst112/61cst112/students/img/p.jpg" width=64 align=middle >
+## Syntax Rules <img src="http://suffolk.li//cst112/61cst112/students/img/p.jpg" width=64 align=middle hspace=100 >
 * Double-slash __//__ begins a *comment*.  (The remainder of the line is ignored by compiler.)
 ```
             // Always begin with a comment that says what you are trying to do!
