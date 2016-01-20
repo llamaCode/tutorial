@@ -29,7 +29,7 @@
                         ellipse( width/2, 50, 30,30 );                  // Yellow sun
             }
 ```
-* Variables must be declared.  (Use only the __```float```__ type for now.)    ![Creature](https://avatars3.githubusercontent.com/u/16676162?v=3&s=200)
+* Variables must be declared.  (Use only the __```float```__ type for now.)    ![dynamic1](http://suffolk.li/img/d1.png)
 
 ```
             float x=200, y=300;     // Starting position of creature.
