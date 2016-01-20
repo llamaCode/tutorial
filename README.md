@@ -11,7 +11,8 @@
             rect( 100,100, 100,50 );
             triangle( 100,100, 200,100, 150,50 );           // Roof
 ```               
-* Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*:  ![d1zz](http://suffolk.li/img/h.png)
+* Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*:
+<img src= "http://suffolk.li/img/h.png" hspace=100 >
 ```
             //// SETUP:  Define screen size, set modes.
             {
