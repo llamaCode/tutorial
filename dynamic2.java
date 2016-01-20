@@ -28,9 +28,9 @@ void draw()
 
 //// SCENE:  sky, sun.
 void scene() {
-  background( 150, 200, 250 );                    // Blue sky
+  background( 150, 200, 250 );      // Blue sky
   fill( 255, 255, 0 );
-  ellipse( sunX, sunY, 30, 30 );                   // Yellow sun
+  ellipse( sunX, sunY, 30, 30 );    // Yellow sun
 }
 
 //// MESSAGES.
@@ -68,9 +68,7 @@ void show() {
   fill( 0, 150, 0 );
   ellipse( x+15, y-25, 4, 4 );
   ellipse( x+35, y-25, 4, 4 );
-
 }
-
 
 
 //// EVENT HANDLERS ////
