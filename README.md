@@ -24,7 +24,7 @@
 
             //// DRAW:  sky and sun
             {
-                        background( 150, 200, 250 );                    // Blue sky
+                        background( 150, 255, 255 );                    // Cyan sky
                         fill( 255, 255, 0 );
                         ellipse( width/2, 50, 30,30 );                  // Yellow sun
             }
@@ -37,7 +37,7 @@
             //// ZOOG:  draw a creature at (x,y)
 
             {
-                        fill( 255,0,255 );                              // Magenta
+                        fill( 255,0,255 );                              // Blue creature
                         rect( x,y, 50,80 );                             // Body
                         ellipse( x+25,y-20, 40,40 );                    // Head
             }
@@ -64,7 +64,7 @@
             void draw()
             {
                         // SCENE:
-                        background( 150, 200, 250 );        // Blue sky
+                        background( 150, 255, 255 );        // Cyan sky
                         fill( 255, 255, 0 );
                         ellipse( sunX, sunY, 30,30 );       // Yellow sun
                         // Draw a red house, with roof.
@@ -80,7 +80,7 @@
                         fill( 0,0,200 );
                         x=  mouseX;
                         y=  mouseY;
-                        rect( x, y, 50, 80 );               // Blue creature
+                        rect( x, y, 50, 80 );               // Blue body
                         ellipse( x+25, y-20, 40,40 );       // Head
                         fill( 255 );
                         ellipse( x+15,y-25, 12,12 );        // Eyes
