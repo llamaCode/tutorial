@@ -1,5 +1,5 @@
 # Tutorial on the _Processing_ Programming Language.
-It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
+
 ## Syntax Rules
 
 * Double-slash __//__ begins a *comment*.  (The remainder of the line is ignored by compiler.)
@@ -85,7 +85,10 @@ It's very easy to make some words **bold** and other words *italic* with Markdow
 
 #### Examine and run this code from  
 
-            https://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java
+            [link to Google!](http://google.com)
+            [link to Google!](http://google.com)
+
+            [d1] (http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java)
 
 ## Modularize:  
 * Organize the code using bite-sized pieces (blocks).
