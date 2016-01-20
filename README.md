@@ -1,5 +1,5 @@
 # Tutorial on the _Processing_ Programming Language.
-![p](http://suffolk.li//cst112/61cst112/students/img/p.jpg | width=32 )
+<img src="http://suffolk.li//cst112/61cst112/students/img/p.jpg" width=32 >
 ## Syntax Rules
 
 * Double-slash __//__ begins a *comment*.  (The remainder of the line is ignored by compiler.)
