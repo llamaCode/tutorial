@@ -1,5 +1,5 @@
 # Tutorial on the _Processing_ Programming Language.
-
+!(http://suffolk.li//cst112/61cst112/students/img/p.jpg =32x32)
 ## Syntax Rules
 
 * Double-slash __//__ begins a *comment*.  (The remainder of the line is ignored by compiler.)
