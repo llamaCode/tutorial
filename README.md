@@ -29,7 +29,8 @@
                         ellipse( width/2, 50, 30,30 );                  // Yellow sun
             }
 ```
-* Variables must be declared.  (Use only the __```float```__ type for now.)
+* Variables must be declared.  (Use only the __```float```__ type for now.)    ![Creature](https://avatars3.githubusercontent.com/u/16676162?v=3&s=200)
+
 ```
             float x=200, y=300;     // Starting position of creature.
             float sunX=50, sunY=50; // Starting position for the sun.
@@ -41,7 +42,6 @@
                         ellipse( x+25,y-20, 40,40 );                    // Head
             }
 ```      
-![Creature](https://avatars3.githubusercontent.com/u/16676162?v=3&s=200)
 
 ## For dynamic sketches,
   1. put setup code in a ```setup( )``` method _(called once)_, and
