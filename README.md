@@ -40,7 +40,7 @@
                         ellipse( x+25,y-20, 40,40 );                    // Head
             }
 ```      
-## For dynamic sketches,      ![d1zz](http://suffolk.li/img/d1zz.png)
+## For dynamic sketches,      <img src="http://suffolk.li/img/d1zz.png" ALIGN=RIGHT >
   1. put setup code in a ```setup( )``` method _(called once)_, and
   2. code to draw each frame in a ```draw( )``` method _(called repeatedly)_:
 ```
