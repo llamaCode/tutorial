@@ -1,4 +1,4 @@
-//// Example of a dynamic sketch.
+//// Dynamic sketch - modularized.
 //// Creature follows the mouse, while sun moves across the sky.
 
 float x, y;              // Position of creature and sun.
@@ -15,6 +15,7 @@ void reset() {
   sunY=  50;
 }
 
+
 //// DRAW:  sky & sun plus creature
 void draw()
 {
@@ -23,6 +24,7 @@ void draw()
   show();
   messages();
 }
+
 
 //// SCENE:  sky, sun.
 void scene() {
@@ -56,6 +58,7 @@ void messages() {
   // Also display the author and file name.
   text( "B.A.Martin / dynamic1.java", 10, height-10 );
 }
+
 
 //// EVENT HANDLERS ////
 void mousePressed() {
