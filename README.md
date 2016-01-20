@@ -29,8 +29,7 @@
                         ellipse( width/2, 50, 30,30 );                  // Yellow sun
             }
 ```
-* Variables must be declared.  (Use only the __```float```__ type for now.)    ![dynamic1](http://suffolk.li/img/d1.png)
-
+* Variables must be declared.  (Use only the __```float```__ type for now.)
 ```
             float x=200, y=300;     // Starting position of creature.
             float sunX=50, sunY=50; // Starting position for the sun.
@@ -86,7 +85,7 @@
 ```
 
 #### _Examine and run this code:_    
-  [http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java](http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java)
+  [http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java](http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java)      ![dynamic1](http://suffolk.li/img/d1.png)
 
 
 ## Modularize:  
