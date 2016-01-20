@@ -29,7 +29,7 @@
                         ellipse( width/2, 50, 30,30 );                  // Yellow sun
             }
 ```
-* Variables must be declared.  (Use only the __```float```__ type for now.)    ![dynamic1](http://suffolk.li/img/d1zz.png)
+* Variables must be declared.  (Use only the __```float```__ type for now.)
 ```
             float x=200, y=300;     // Starting position of creature.
             float sunX=50, sunY=50; // Starting position for the sun.
@@ -42,7 +42,7 @@
                         ellipse( x+25,y-20, 40,40 );                    // Head
             }
 ```      
-## For dynamic sketches,
+## For dynamic sketches,      ![d1zz](http://suffolk.li/img/d1zz.png)
   1. put setup code in a ```setup( )``` method _(called once)_, and
   2. code to draw each frame in a ```draw( )``` method _(called repeatedly)_:
 ```
