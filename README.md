@@ -8,9 +8,9 @@
 * Semicolon __;__ must end each statement.  <img src= "http://suffolk.li/img/h.png" hspace=100 ALIGN=RIGHT >
 ```
             // Draw a red house, with roof.
-            fill( 255, 0, 0 );                              // Red house 
+            fill( 255, 0, 0 );                         // Red house 
             rect( 100,100, 100,50 );
-            triangle( 100,100, 200,100, 150,50 );           // Roof
+            triangle( 100,100, 200,100, 150,50 );      // Roof
 ```               
 * Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*:
 ```
@@ -23,9 +23,9 @@
 
             //// DRAW:  sky and sun
             {
-                        background( 150, 255, 255 );                    // Cyan sky
+                        background( 150, 255, 255 );     // Cyan sky
                         fill( 255, 255, 0 );
-                        ellipse( width/2, 50, 30,30 );                  // Yellow sun
+                        ellipse( width/2, 50, 30,30 );   // Yellow sun
             }
 ```
 * Variables must be declared.  (Use only the __```float```__ type for now.)
@@ -36,9 +36,9 @@
             //// ZOOG:  draw a creature at (x,y)
 
             {
-                        fill( 255,0,255 );                              // Blue creature
-                        rect( x,y, 50,80 );                             // Body
-                        ellipse( x+25,y-20, 40,40 );                    // Head
+                        fill( 255,0,255 );               // Blue creature
+                        rect( x,y, 50,80 );              // Body
+                        ellipse( x+25,y-20, 40,40 );     // Head
             }
 ```      
 ## For dynamic sketches,      <img src="http://suffolk.li/img/d1zz.png" ALIGN=RIGHT >
@@ -48,14 +48,14 @@
             //// Example of a dynamic sketch.
             //// Creature follows the mouse, while sun moves across the sky.
 
-            float x,y;              // Position of creature and sun.
+            float x,y;                          // Position of creature and sun.
             float sunX, sunY;
             
             //// SETUP:  Define screen size, set modes.
             void setup()
             {
                         size( 600, 400 );
-                        sunX=  width/2;                     // Reset the sun position.
+                        sunX=  width/2;                  // Reset the sun position.
                         sunY=  50;
             }
 
