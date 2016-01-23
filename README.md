@@ -106,3 +106,6 @@
 ```
 #### _Examine this code, then make your own modifications and run it!_  
   [http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic2.java](http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic2.java)
+
+*.../....1..../....2..../....3..../....4..../....5..../....6..../....7..../....8..../....9..../....0..../....1..../....2..../....3..../....3..../....4..../....5..../....6  
+            |           |           |           |           |           |           |           |           |           |
