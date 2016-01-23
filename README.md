@@ -8,7 +8,7 @@
 * Semicolon __;__ must end each statement.  <img src= "http://suffolk.li/img/h.png" hspace=100 ALIGN=RIGHT >
 ```
             // Draw a red house, with roof.
-            fill( 255, 0, 0 );                              // Red house
+            fill( 255, 0, 0 );                              // Red house 
             rect( 100,100, 100,50 );
             triangle( 100,100, 200,100, 150,50 );           // Roof
 ```               
