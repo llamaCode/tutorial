@@ -50,7 +50,6 @@
             float sunX=50, sunY=50; // Starting position for the sun.
             
             //// ZOOG:  draw a creature at (x,y)
-
             {
                         fill( 255,0,255 );               // Magenta creature
                         rect( x,y, 50,80 );              // Body
@@ -103,6 +102,7 @@ void draw()
             ellipse( x+35,y-25, 12,12 );
 
             // MESSAGES:  title & author
+            fill(0);
             text(  "Project #0:  Hero follows mouse.",   10, width/3 );
             text(  "Joe Bloggs, CST 112",   10, height-10 );
 }
