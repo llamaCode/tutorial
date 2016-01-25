@@ -108,7 +108,6 @@ void draw()
 }
 ```
 #### _Examine and run this code:_      <img src="http://suffolk.li/img/project0.png" ALIGN=RIGHT >
-<IMG SRC="http://suffolk.li/img/d1.png" ALIGN=RIGHT>
   [http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java](http://raw.githubusercontent.com/61cst112/tutorial/master/project0.java)  
 
 
