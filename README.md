@@ -1,7 +1,7 @@
 # Tutorial on the _Processing_ Programming Language.
-<img src="http://suffolk.li//cst112/61cst112/students/img/p.jpg" width=60 align=RIGHT hspace=100 >
+<img src="http://suffolk.li//cst112/61cst112/students/img/p.jpg" width=60 align=LEFT hspace=100 >
 ## Syntax Rules
-* Double-slash __//__ begins a *comment*.    
++ Double-slash __//__ begins a *comment*.    
 (The remainder of the line is ignored by compiler.) <img src= "http://suffolk.li/img/s0.png" WIDTH=150 ALIGN=RIGHT VSPACE=120 >
 ```
             //// Always start with comment lines.
@@ -14,7 +14,7 @@
             ellipse( 200,100, 90,90 );          // Circle with CENTER at (200,100);
 
 ```
-* Semicolon __;__ must end each statement.  
++ Semicolon __;__ must end each statement.  
 <img src= "http://suffolk.li/img/h.png" WIDTH=120 ALIGN=RIGHT >
 ```
             // Draw a red house, with roof.
@@ -22,7 +22,7 @@
             rect( 50,50, 100,50 );
             triangle( 50,50, 150,50, 100,20 );  // Roof
 ```               
-* // Practice with different shapes and colors.    <img src= "http://suffolk.li/img/shapes.png" ALIGN=RIGHT >
++ // Practice with different shapes and colors.    <img src= "http://suffolk.li/img/shapes.png" ALIGN=RIGHT >
             [http://raw.githubusercontent.com/61cst112/tutorial/master/shapes.pde](http://raw.githubusercontent.com/61cst112/tutorial/master/shapes.pde)  
 
 ```
@@ -54,7 +54,7 @@
 
             // Add your own shapes, here.
 ```
-* Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*:
++ Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*:
 ```
             //// SETUP:  Define screen size, set modes.
             {
@@ -78,7 +78,7 @@
                         text( "Joe Bloggs, CST 112",   10, height-10 );
             }
 ```
-* Variables must be declared.  (Use only the __```float```__ type for now.)      <img src="http://suffolk.li/img/magenta.png" ALIGN=RIGHT >
++ Variables must be declared.  (Use only the __```float```__ type for now.)      <img src="http://suffolk.li/img/magenta.png" ALIGN=RIGHT >
 ```
             float x=200, y=300;     // Starting position of creature.
             float sunX=50, sunY=50; // Starting position for the sun.
