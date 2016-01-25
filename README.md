@@ -20,16 +20,14 @@
             rect( 50,50, 100,50 );
             triangle( 50,50, 150,50, 100,20 );  // Roof
 ```               
-* // Practice with different shapes and colors.
-[http://raw.githubusercontent.com/61cst112/tutorial/master/shapes.pde](http://raw.githubusercontent.com/61cst112/tutorial/master/shapes.pde)  
+* // Practice with different shapes and colors.    <img src= "http://suffolk.li/img/s.png" hspace=100 ALIGN=RIGHT >
+            [http://raw.githubusercontent.com/61cst112/tutorial/master/shapes.pde](http://raw.githubusercontent.com/61cst112/tutorial/master/shapes.pde)  
+
 ```
 // Practice with different shapes and colors.
-// B.A.Martin
 
 // SETUP:  size & modes
 size( 400, 300 );
-smooth();
-
 
 // DRAW:  shapes and colors
 text( "Some lines and shapes", 10,10 );
@@ -117,7 +115,8 @@ void setup()
 //// DRAW:  sky, sun, house plus creature. ////
 void draw()
 {
-            //// SCENE:
+    //// SCENE:
+    {
             background( 150, 255, 255 );        // Cyan sky
             fill( 255, 255, 0 );
             ellipse( sunX, sunY, 30,30 );       // Yellow sun
@@ -125,29 +124,36 @@ void draw()
             fill( 255, 0, 0 );                  // Red house 
             rect( 50,50, 100,50 );
             triangle( 50,50, 150,50, 100,20 );  // Roof
+    }
 
-            //// ACTION:  Follow the mouse.
+    //// ACTION:  Follow the mouse.
+    {
             sunX=  sunX + 1;
             if (sunX > width) sunX=  0;
             x=  mouseX;                         // Move the creature.
             y=  mouseY;
+    }
 
-            //// SHOW:    Draw blue creature.
+    //// SHOW:    Draw blue creature.
+    {
             fill( 0,0,200 );
             rect( x, y, 50, 80 );               // Body
             ellipse( x+25, y-20, 40,40 );       // Head
             fill( 255 );
             ellipse( x+15,y-25, 12,12 );        // Eyes
             ellipse( x+35,y-25, 12,12 );
+    }
 
-            // MESSAGES:  title & author
+     // MESSAGES:  title & author
+     {
             fill(0);
             text(  "Project #0:  Hero follows mouse.",   10, 10 );
             text(  "Joe Bloggs, CST 112",   10, height-10 );
+    }
 }
 ```
 #### _Examine and run this code:_      <img src="http://suffolk.li/img/project0.png" ALIGN=RIGHT >
-  [http://raw.githubusercontent.com/61cst112/tutorial/master/project0.java](http://raw.githubusercontent.com/61cst112/tutorial/master/project0.java)  
+  [http://raw.githubusercontent.com/61cst112/tutorial/master/project0.pde](http://raw.githubusercontent.com/61cst112/tutorial/master/project0.pde)  
 
 
 ## Modularize:  
@@ -164,4 +170,4 @@ void draw()
 ```
 
 #### _Examine this code, then make your own modifications and run it!_  
-  [http://raw.githubusercontent.com/61cst112/tutorial/master/modular0.java](http://raw.githubusercontent.com/61cst112/tutorial/master/modular0.java)
+  [http://raw.githubusercontent.com/61cst112/tutorial/master/modular0.pde](http://raw.githubusercontent.com/61cst112/tutorial/master/modular0.pde)
