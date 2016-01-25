@@ -91,7 +91,7 @@
                         ellipse( x+25,y-20, 40,40 );     // Head
             }
 ```      
-## For dynamic sketches,
+## For dynamic sketches,       <img src="http://suffolk.li/img/project0.png" ALIGN=RIGHT WIDTH=200 VSPACE=100 >
   1. put setup code in a ```setup( )``` method _(called once)_, and
   2. code to draw each frame in a ```draw( )``` method _(called repeatedly)_:
 ```
@@ -150,7 +150,7 @@ void draw()
     }
 }
 ```
-#### _Examine and run this code:_      <img src="http://suffolk.li/img/project0.png" ALIGN=RIGHT >
+#### _Examine and run this code:_
   [http://raw.githubusercontent.com/61cst112/tutorial/master/project0.pde](http://raw.githubusercontent.com/61cst112/tutorial/master/project0.pde)  
 
 
