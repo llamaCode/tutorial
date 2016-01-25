@@ -1,7 +1,7 @@
 # Tutorial on the _Processing_ Programming Language.
-<img src="http://suffolk.li//cst112/61cst112/students/img/p.jpg" width=64 align=RIGHT hspace=100 >
+<img src="http://suffolk.li//cst112/61cst112/students/img/p.jpg" width=100 align=RIGHT hspace=100 >
 ## Syntax Rules
-* Double-slash __//__ begins a *comment*.  (The remainder of the line is ignored by compiler.) <img src= "http://suffolk.li/img/h.png" hspace=20 ALIGN=RIGHT >
+* Double-slash __//__ begins a *comment*.  (The remainder of the line is ignored by compiler.) <img src= "http://suffolk.li/img/s0.png" WIDTH=60 ALIGN=RIGHT >
 ```
             //// Always start with comment lines.
             ////   to say WHAT you are doing 
@@ -13,7 +13,7 @@
             ellipse( 200,100, 90,90 );          // Circle with CENTER at (200,100);
 
 ```
-* Semicolon __;__ must end each statement.  <img src= "http://suffolk.li/img/s0.png" hspace=20 ALIGN=RIGHT >
+* Semicolon __;__ must end each statement.  <img src= "http://suffolk.li/img/h.png" ALIGN=RIGHT >
 ```
             // Draw a red house, with roof.
             fill( 255, 0, 0 );                  // Red house 
