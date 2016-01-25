@@ -1,4 +1,4 @@
-/ Practice with different shapes and colors.
+// Practice with different shapes and colors.
 // B.A.Martin
 
 // SETUP:  size & modes
