@@ -23,7 +23,7 @@
             triangle( 50,50, 150,50, 100,20 );  // Roof
 ```               
 + Use library methods to draw different shapes and colors.
-<img src= "http://suffolk.li/img/shapes.png" ALIGN=RIGHT >
+<img src= "http://suffolk.li/img/shapes.png" ALIGN=RIGHT VSPACE=100 >
 ```
             // DRAW:  shapes and colors
             text( "Some lines and shapes", 10,10 );
@@ -52,9 +52,10 @@
             line(200,100, 250,150 );
 
 ```
-###### Add your own shapes, here:[http://raw.githubusercontent.com/61cst112/tutorial/master/shapes.pde](http://raw.githubusercontent.com/61cst112/tutorial/master/shapes.pde)
+##### Add your own shapes to this code: [shapes.pde](http://raw.githubusercontent.com/61cst112/tutorial/master/shapes.pde)
 
-+ Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*:
+
++ Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*: <img src= "http://suffolk.li/img/sunny.png" WIDTH=180 ALIGN=RIGHT VSPACE=50 >
 ```
             //// SETUP:  Define screen size, set modes.
             {
@@ -78,7 +79,7 @@
                         text( "Joe Bloggs, CST 112",   10, height-10 );
             }
 ```
-+ Variables must be declared.  (Use only the __```float```__ type for now.)      <img src="http://suffolk.li/img/magenta.png" ALIGN=RIGHT >
++ Variables must be declared.  (Use only the __```float```__ type for now.)      <img src="http://suffolk.li/img/magenta.png" ALIGN=RIGHT VSPACE=50  >
 ```
             float x=200, y=300;     // Starting position of creature.
             float sunX=50, sunY=50; // Starting position for the sun.
