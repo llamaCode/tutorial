@@ -22,7 +22,8 @@
             rect( 50,50, 100,50 );
             triangle( 50,50, 150,50, 100,20 );  // Roof
 ```               
-+ // Practice with different shapes and colors.    <img src= "http://suffolk.li/img/shapes.png" ALIGN=RIGHT >
++ Use library methods to draw different shapes and colors.
+<img src= "http://suffolk.li/img/shapes.png" ALIGN=RIGHT >
 ```
             // DRAW:  shapes and colors
             text( "Some lines and shapes", 10,10 );
@@ -50,9 +51,9 @@
             line(50,50, 80,80 );
             line(200,100, 250,150 );
 
-            // Add your own shapes, here.
 ```
-            [http://raw.githubusercontent.com/61cst112/tutorial/master/shapes.pde](http://raw.githubusercontent.com/61cst112/tutorial/master/shapes.pde)  
+#### Add your own shapes, here.
+  [http://raw.githubusercontent.com/61cst112/tutorial/master/shapes.pde](http://raw.githubusercontent.com/61cst112/tutorial/master/shapes.pde)
 + Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*:
 ```
             //// SETUP:  Define screen size, set modes.
