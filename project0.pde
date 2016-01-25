@@ -25,7 +25,6 @@ void draw()
             rect( 100,100, 100,50 );                        // Red house
             triangle( 100,100, 200,100, 150,50 );
             
-            
             // ACTION:  sun crosses sky, reset to left side.
             if (sunX > width) {
                         sunX=  0;
