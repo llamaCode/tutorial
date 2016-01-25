@@ -3,7 +3,15 @@
 ## Syntax Rules
 * Double-slash __//__ begins a *comment*.  (The remainder of the line is ignored by compiler.)
 ```
-            // Always begin with a comment that says what you are trying to do!
+            //// Always start with comment lines.
+            ////   to say WHAT you are doing 
+            ////   (and WHO you are).
+            
+            point(20,20 );	                        // Draw a point at (20,20).
+            line(200,30, 250,50 );		            // Draw a line between two points.
+            rect( 50,50, 80,60 );		            // Rectangle with CORNER at (50,50).
+            ellipse( 200,100, 90,90 );		// Circle with CENTER at (200,100);
+
 ```
 * Semicolon __;__ must end each statement.  <img src= "http://suffolk.li/img/h.png" hspace=100 ALIGN=RIGHT >
 ```
@@ -26,6 +34,10 @@
                         background( 150, 255, 255 );     // Cyan sky
                         fill( 255, 255, 0 );
                         ellipse( width/2, 50, 30,30 );   // Yellow sun
+                        
+                        // MESSAGES:  title & author
+                        text( "Project #0:  Sunny day",   10, width/3 );
+                        text( "Joe Bloggs, CST 112",   10, height-10 );
             }
 ```
 * Variables must be declared.  (Use only the __```float```__ type for now.)
@@ -46,12 +58,13 @@
   2. code to draw each frame in a ```draw( )``` method _(called repeatedly)_:
 ```
             //// Example of a dynamic sketch.
-            //// Creature follows the mouse, while sun moves across the sky.
+            //// Creature follows the mouse, while the sun moves across the sky.
+            //// Joe Bloggs, CST112
 
             float x,y;                          // Position of creature and sun.
             float sunX, sunY;
             
-            //// SETUP:  Define screen size, set modes.
+            //// SETUP:  Define screen size, set modes. ////
             void setup()
             {
                         size( 600, 400 );
@@ -59,10 +72,10 @@
                         sunY=  50;
             }
 
-            //// DRAW:  sky, sun, house plus creature
+            //// DRAW:  sky, sun, house plus creature. ////
             void draw()
             {
-                        // SCENE:
+                        //// SCENE:
                         background( 150, 255, 255 );        // Cyan sky
                         fill( 255, 255, 0 );
                         ellipse( sunX, sunY, 30,30 );       // Yellow sun
@@ -71,19 +84,23 @@
                         rect( 100,100, 100,50 );
                         triangle( 100,100, 200,100, 150,50 );
                         
-                        // ACTION:
+                        //// ACTION:  Follow the mouse.
                         sunX=  sunX + 1;
                         if (sunX > width) sunX=  0;
-
-                        // SHOW:
-                        fill( 0,0,200 );
-                        x=  mouseX;
+                        x=  mouseX;                         // Move the creature.
                         y=  mouseY;
-                        rect( x, y, 50, 80 );               // Blue body
+
+                        //// SHOW:    Draw blue creature.
+                        fill( 0,0,200 );
+                        rect( x, y, 50, 80 );               // Body
                         ellipse( x+25, y-20, 40,40 );       // Head
                         fill( 255 );
                         ellipse( x+15,y-25, 12,12 );        // Eyes
                         ellipse( x+35,y-25, 12,12 );
+
+                        // MESSAGES:  title & author
+                        text(  "Project #0:  Hero follows mouse.",   10, width/3 );
+                        text(  "Joe Bloggs, CST 112",   10, height-10 );
             }
 ```
 
@@ -93,7 +110,7 @@
 
 
 ## Modularize:  
-* Organize the code using bite-sized pieces (blocks).
+* Organize your code using bite-sized pieces (blocks).
 ```
             //// DRAW:  Next frame.
             void draw()
