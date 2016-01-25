@@ -110,7 +110,7 @@ void setup()
             sunY=  50;
 }
 ```
-<img src="http://suffolk.li/img/project0.png" ALIGN=RIGHT WIDTH=200 VSPACE=200 >
+<img src="http://suffolk.li/img/project0.png" ALIGN=RIGHT WIDTH=240 VSPACE=200 >
 ```
 //// DRAW:  sky, sun, house plus creature. ////
 void draw()
