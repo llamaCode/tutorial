@@ -56,7 +56,7 @@
                         ellipse( x+25,y-20, 40,40 );     // Head
             }
 ```      
-## For dynamic sketches,      <img src="http://suffolk.li/img/project0.png" ALIGN=RIGHT >
+## For dynamic sketches,
   1. put setup code in a ```setup( )``` method _(called once)_, and
   2. code to draw each frame in a ```draw( )``` method _(called repeatedly)_:
 ```
@@ -86,13 +86,7 @@ void draw()
             fill( 255, 0, 0 );                  // Red house 
             rect( 50,50, 100,50 );
             triangle( 50,50, 150,50, 100,20 );  // Roof
-            /*
-            // Draw a red house, with roof.
-            fill( 255, 0, 0 );                  // Red house
-            rect( 100,100, 100,50 );
-            triangle( 100,100, 200,100, 150,50 );
-            */
-            
+
             //// ACTION:  Follow the mouse.
             sunX=  sunX + 1;
             if (sunX > width) sunX=  0;
@@ -113,9 +107,9 @@ void draw()
             text(  "Joe Bloggs, CST 112",   10, height-10 );
 }
 ```
-#### _Examine and run this code:_
+#### _Examine and run this code:_      <img src="http://suffolk.li/img/project0.png" ALIGN=RIGHT >
 <IMG SRC="http://suffolk.li/img/d1.png" ALIGN=RIGHT>
-  [http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java](http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java)  
+  [http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java](http://raw.githubusercontent.com/61cst112/tutorial/master/project0.java)  
 
 
 ## Modularize:  
