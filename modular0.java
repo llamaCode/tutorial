@@ -1,8 +1,10 @@
 //// Dynamic sketch - modularized.
 //// Creature follows the mouse, while sun moves across the sky.
 
-float x, y;              // Position of creature and sun.
-float sunX, sunY;
+float sunX, sunY;        // Position of sun
+float x, y;              // Position and speed of creature.
+float dx, dy;
+
 
 //// SETUP:  Define screen size, set modes.
 void setup()
@@ -13,6 +15,10 @@ void setup()
 void reset() {
   sunX=  width/2;         // Start the sun half-way across the screen.
   sunY=  50;
+  x=  width/2;            // Start creature in center.
+  y=  height/2;
+  dx=  random( 2,5 );     // Random speed.
+  dy=  random( 1,3 );
 }
 
 
@@ -41,7 +47,7 @@ void messages() {
   fill(0);
   text( "Dynamic sketch -- modularized.", width/3, 10 );
   text( "Creature follows the mouse, while sun moves across the sky.", width/3, 20 );
-  text( "Click to reset sun.\n  Press 's' key to lower the sun, 'q' to quit.", 10, height/2 );
+  text( "Click to reset creature.\n  Press 's' key to lower the sun, 'q' to quit.", 10, height/2 );
   // Also display the author and file name.
   text( "B.A.Martin / dynamic2.java", 10, height-10 );
 }
@@ -53,13 +59,13 @@ void action() {
     sunY=  random( 20, 120 );
   }
   sunX=  sunX + 1;
+  // Move the creature.
+  x=  x + dx;
+  y=  y + dy;
 }
 
 //// SHOW:  creature follows mouse
 void show() {
-  // Set the position (x,y)
-  x=  mouseX;
-  y=  mouseY;
   // Draw creature.
   fill( 0, 0, 200 );
   rect( x,y, 50, 80 );                 // Blue creature
@@ -77,10 +83,16 @@ void show() {
 //// EVENT HANDLERS ////
 void mousePressed() {
   reset();
+  // Set the position (x,y)
+  x=  mouseX;
+  y=  mouseY;
 }
 void keyPressed() {
   if (key == 'q') {
     exit();
+  }
+  if (key == 'r') {
+    reset();
   }
   if (key == 's') {
     sunY=  sunY + 50;
