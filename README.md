@@ -39,6 +39,7 @@
                         
             //// MESSAGES:  title & author
             {
+                        fill(0);
                         text( "Project #0:  Sunny day",   10, width/3 );
                         text( "Joe Bloggs, CST 112",   10, height-10 );
             }
