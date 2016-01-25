@@ -1,7 +1,7 @@
 # Tutorial on the _Processing_ Programming Language.
 <img src="http://suffolk.li//cst112/61cst112/students/img/p.jpg" width=64 align=RIGHT hspace=100 >
 ## Syntax Rules
-* Double-slash __//__ begins a *comment*.  (The remainder of the line is ignored by compiler.)
+* Double-slash __//__ begins a *comment*.  (The remainder of the line is ignored by compiler.) <img src= "http://suffolk.li/img/s0.png" hspace=20 ALIGN=RIGHT >
 ```
             //// Always start with comment lines.
             ////   to say WHAT you are doing 
