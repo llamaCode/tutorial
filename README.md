@@ -2,7 +2,7 @@
 <img src="http://suffolk.li//cst112/61cst112/students/img/p.jpg" width=60 align=RIGHT hspace=100 >
 ## Syntax Rules
 * Double-slash __//__ begins a *comment*.    
-(The remainder of the line is ignored by compiler.) <img src= "http://suffolk.li/img/s0.png" WIDTH=15 ALIGN=RIGHT >
+(The remainder of the line is ignored by compiler.) <img src= "http://suffolk.li/img/s0.png" WIDTH=150 ALIGN=RIGHT >
 ```
             //// Always start with comment lines.
             ////   to say WHAT you are doing 
