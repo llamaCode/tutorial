@@ -152,8 +152,7 @@ void draw()
     }
 }
 ```
-#### _Examine and run this code:_
-  [http://raw.githubusercontent.com/61cst112/tutorial/master/project0.pde](http://raw.githubusercontent.com/61cst112/tutorial/master/project0.pde)  
+[http://raw.githubusercontent.com/61cst112/tutorial/master/project0.pde](http://raw.githubusercontent.com/61cst112/tutorial/master/project0.pde)  
 
 
 ## Modularize:  
