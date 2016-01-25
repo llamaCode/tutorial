@@ -91,7 +91,7 @@
                         ellipse( x+25,y-20, 40,40 );     // Head
             }
 ```      
-## For dynamic sketches,       <img src="http://suffolk.li/img/project0.png" ALIGN=RIGHT WIDTH=200 VSPACE=100 >
+## For dynamic sketches,
   1. put setup code in a ```setup( )``` method _(called once)_, and
   2. code to draw each frame in a ```draw( )``` method _(called repeatedly)_:
 ```
@@ -109,7 +109,9 @@ void setup()
             sunX=  width/2;                  // Reset the sun position.
             sunY=  50;
 }
-
+```
+<img src="http://suffolk.li/img/project0.png" ALIGN=RIGHT WIDTH=200 VSPACE=200 >
+```
 //// DRAW:  sky, sun, house plus creature. ////
 void draw()
 {
