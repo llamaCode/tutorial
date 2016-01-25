@@ -44,7 +44,7 @@
                         text( "Joe Bloggs, CST 112",   10, height-10 );
             }
 ```
-* Variables must be declared.  (Use only the __```float```__ type for now.)
+* Variables must be declared.  (Use only the __```float```__ type for now.)      <img src="http://suffolk.li/img/d1zz.png" ALIGN=RIGHT >
 ```
             float x=200, y=300;     // Starting position of creature.
             float sunX=50, sunY=50; // Starting position for the sun.
@@ -56,7 +56,7 @@
                         ellipse( x+25,y-20, 40,40 );     // Head
             }
 ```      
-## For dynamic sketches,      <img src="http://suffolk.li/img/d1zz.png" ALIGN=RIGHT >
+## For dynamic sketches,      <img src="http://suffolk.li/img/project0.png" ALIGN=RIGHT >
   1. put setup code in a ```setup( )``` method _(called once)_, and
   2. code to draw each frame in a ```draw( )``` method _(called repeatedly)_:
 ```
@@ -110,54 +110,6 @@ void draw()
             // MESSAGES:  title & author
             fill(0);
             text(  "Project #0:  Hero follows mouse.",   10, 10 );
-            text(  "Joe Bloggs, CST 112",   10, height-10 );
-}
-```
-```
-//// Example of a dynamic sketch.
-//// Creature follows the mouse, while the sun moves across the sky.
-//// Joe Bloggs, CST112
-
-float x,y;                          // Position of creature and sun.
-float sunX, sunY;
-
-//// SETUP:  Define screen size, set modes. ////
-void setup()
-{
-            size( 600, 400 );
-            sunX=  width/2;                  // Reset the sun position.
-            sunY=  50;
-}
-
-//// DRAW:  sky, sun, house plus creature. ////
-void draw()
-{
-            //// SCENE:
-            background( 150, 255, 255 );        // Cyan sky
-            fill( 255, 255, 0 );
-            ellipse( sunX, sunY, 30,30 );       // Yellow sun
-            // Draw a red house, with roof.
-            fill( 255, 0, 0 );                  // Red house
-            rect( 100,100, 100,50 );
-            triangle( 100,100, 200,100, 150,50 );
-            
-            //// ACTION:  Follow the mouse.
-            sunX=  sunX + 1;
-            if (sunX > width) sunX=  0;
-            x=  mouseX;                         // Move the creature.
-            y=  mouseY;
-
-            //// SHOW:    Draw blue creature.
-            fill( 0,0,200 );
-            rect( x, y, 50, 80 );               // Body
-            ellipse( x+25, y-20, 40,40 );       // Head
-            fill( 255 );
-            ellipse( x+15,y-25, 12,12 );        // Eyes
-            ellipse( x+35,y-25, 12,12 );
-
-            // MESSAGES:  title & author
-            fill(0);
-            text(  "Project #0:  Hero follows mouse.",   10, width/3 );
             text(  "Joe Bloggs, CST 112",   10, height-10 );
 }
 ```
