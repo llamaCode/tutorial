@@ -18,7 +18,7 @@ void reset() {
   x=  width/2;            // Start creature in center.
   y=  height/2;
   dx=  random( 2,5 );     // Random speed.
-  dy=  random( 1,3 );
+  dy=  random( -2, +2 );
 }
 
 
