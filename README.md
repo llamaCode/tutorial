@@ -55,7 +55,7 @@
 ##### Add your own shapes to this code: [shapes.pde](http://raw.githubusercontent.com/61cst112/tutorial/master/shapes.pde)
 
 
-+ Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*: <img src= "http://suffolk.li/img/sunny.png" WIDTH=180 ALIGN=RIGHT VSPACE=50 >
++ Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*: <img src= "http://suffolk.li/img/sunny.png" WIDTH=200 ALIGN=RIGHT VSPACE=150 >
 ```
             //// SETUP:  Define screen size, set modes.
             {
