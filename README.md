@@ -2,7 +2,7 @@
 <img src="http://suffolk.li//cst112/61cst112/students/img/p.jpg" width=60 align=RIGHT hspace=100 >
 ## Syntax Rules
 * Double-slash __//__ begins a *comment*.    
-(The remainder of the line is ignored by compiler.) <img src= "http://suffolk.li/img/s0.png" WIDTH=150 ALIGN=RIGHT VSPACE=100 >
+(The remainder of the line is ignored by compiler.) <img src= "http://suffolk.li/img/s0.png" WIDTH=150 ALIGN=RIGHT VSPACE=120 >
 ```
             //// Always start with comment lines.
             ////   to say WHAT you are doing 
@@ -15,7 +15,7 @@
 
 ```
 * Semicolon __;__ must end each statement.  
-<img src= "http://suffolk.li/img/h.png" ALIGN=RIGHT >
+<img src= "http://suffolk.li/img/h.png" WIDTH=120 ALIGN=RIGHT >
 ```
             // Draw a red house, with roof.
             fill( 255, 0, 0 );                  // Red house 
