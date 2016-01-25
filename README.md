@@ -1,5 +1,5 @@
 # Tutorial on the _Processing_ Programming Language.
-<img src="http://suffolk.li//cst112/61cst112/students/img/p.jpg" width=60 align=LEFT hspace=100 >
+<img src="http://suffolk.li//cst112/61cst112/students/img/p.jpg" width=60 align=LEFT >
 ## Syntax Rules
 + Double-slash __//__ begins a *comment*.    
 (The remainder of the line is ignored by compiler.) <img src= "http://suffolk.li/img/s0.png" WIDTH=150 ALIGN=RIGHT VSPACE=120 >
