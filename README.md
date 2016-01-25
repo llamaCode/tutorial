@@ -7,18 +7,18 @@
             ////   to say WHAT you are doing 
             ////   (and WHO you are).
             
-            point(20,20 );	                        // Draw a point at (20,20).
-            line(200,30, 250,50 );		            // Draw a line between two points.
-            rect( 50,50, 80,60 );		            // Rectangle with CORNER at (50,50).
-            ellipse( 200,100, 90,90 );		// Circle with CENTER at (200,100);
+            point(20,20 );                      // Draw a point at (20,20).
+            line(200,30, 250,50 );              // Draw a line between two points.
+            rect( 50,50, 80,60 );               // Rectangle with CORNER at (50,50).
+            ellipse( 200,100, 90,90 );          // Circle with CENTER at (200,100);
 
 ```
 * Semicolon __;__ must end each statement.  <img src= "http://suffolk.li/img/h.png" hspace=100 ALIGN=RIGHT >
 ```
             // Draw a red house, with roof.
-            fill( 255, 0, 0 );                         // Red house 
+            fill( 255, 0, 0 );                              // Red house 
             rect( 100,100, 100,50 );
-            triangle( 100,100, 200,100, 150,50 );      // Roof
+            triangle( 100,100, 200,100, 150,50 );           // Roof
 ```               
 * Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*:
 ```
