@@ -49,7 +49,7 @@ void messages() {
   text( "Creature follows the mouse, while sun moves across the sky.", width/3, 20 );
   text( "Click to reset creature.\n  Press 's' key to lower the sun, 'q' to quit.", 10, height/2 );
   // Also display the author and file name.
-  text( "B.A.Martin / dynamic2.java", 10, height-10 );
+  text( "B.A.Martin / modular0.java", 10, height-10 );
 }
 
 //// ACTION:  sun moves (then resets to random height)
