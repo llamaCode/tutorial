@@ -16,9 +16,9 @@
 * Semicolon __;__ must end each statement.  <img src= "http://suffolk.li/img/h.png" hspace=100 ALIGN=RIGHT >
 ```
             // Draw a red house, with roof.
-            fill( 255, 0, 0 );                              // Red house 
-            rect( 100,100, 100,50 );
-            triangle( 100,100, 200,100, 150,50 );           // Roof
+            fill( 255, 0, 0 );                  // Red house 
+            rect( 50,50, 100,50 );
+            triangle( 50,50, 150,50, 100,20 );  // Roof
 ```               
 * Each __BLOCK__ of statements should be indented and surrounded by *curly-braces*:
 ```
@@ -34,8 +34,11 @@
                         background( 150, 255, 255 );     // Cyan sky
                         fill( 255, 255, 0 );
                         ellipse( width/2, 50, 30,30 );   // Yellow sun
+            }
+            
                         
-                        // MESSAGES:  title & author
+            //// MESSAGES:  title & author
+            {
                         text( "Project #0:  Sunny day",   10, width/3 );
                         text( "Joe Bloggs, CST 112",   10, height-10 );
             }
@@ -57,53 +60,52 @@
   1. put setup code in a ```setup( )``` method _(called once)_, and
   2. code to draw each frame in a ```draw( )``` method _(called repeatedly)_:
 ```
-            //// Example of a dynamic sketch.
-            //// Creature follows the mouse, while the sun moves across the sky.
-            //// Joe Bloggs, CST112
+//// Example of a dynamic sketch.
+//// Creature follows the mouse, while the sun moves across the sky.
+//// Joe Bloggs, CST112
 
-            float x,y;                          // Position of creature and sun.
-            float sunX, sunY;
+float x,y;                          // Position of creature and sun.
+float sunX, sunY;
+
+//// SETUP:  Define screen size, set modes. ////
+void setup()
+{
+            size( 600, 400 );
+            sunX=  width/2;                  // Reset the sun position.
+            sunY=  50;
+}
+
+//// DRAW:  sky, sun, house plus creature. ////
+void draw()
+{
+            //// SCENE:
+            background( 150, 255, 255 );        // Cyan sky
+            fill( 255, 255, 0 );
+            ellipse( sunX, sunY, 30,30 );       // Yellow sun
+            // Draw a red house, with roof.
+            fill( 255, 0, 0 );                  // Red house
+            rect( 100,100, 100,50 );
+            triangle( 100,100, 200,100, 150,50 );
             
-            //// SETUP:  Define screen size, set modes. ////
-            void setup()
-            {
-                        size( 600, 400 );
-                        sunX=  width/2;                  // Reset the sun position.
-                        sunY=  50;
-            }
+            //// ACTION:  Follow the mouse.
+            sunX=  sunX + 1;
+            if (sunX > width) sunX=  0;
+            x=  mouseX;                         // Move the creature.
+            y=  mouseY;
 
-            //// DRAW:  sky, sun, house plus creature. ////
-            void draw()
-            {
-                        //// SCENE:
-                        background( 150, 255, 255 );        // Cyan sky
-                        fill( 255, 255, 0 );
-                        ellipse( sunX, sunY, 30,30 );       // Yellow sun
-                        // Draw a red house, with roof.
-                        fill( 255, 0, 0 );                  // Red house
-                        rect( 100,100, 100,50 );
-                        triangle( 100,100, 200,100, 150,50 );
-                        
-                        //// ACTION:  Follow the mouse.
-                        sunX=  sunX + 1;
-                        if (sunX > width) sunX=  0;
-                        x=  mouseX;                         // Move the creature.
-                        y=  mouseY;
+            //// SHOW:    Draw blue creature.
+            fill( 0,0,200 );
+            rect( x, y, 50, 80 );               // Body
+            ellipse( x+25, y-20, 40,40 );       // Head
+            fill( 255 );
+            ellipse( x+15,y-25, 12,12 );        // Eyes
+            ellipse( x+35,y-25, 12,12 );
 
-                        //// SHOW:    Draw blue creature.
-                        fill( 0,0,200 );
-                        rect( x, y, 50, 80 );               // Body
-                        ellipse( x+25, y-20, 40,40 );       // Head
-                        fill( 255 );
-                        ellipse( x+15,y-25, 12,12 );        // Eyes
-                        ellipse( x+35,y-25, 12,12 );
-
-                        // MESSAGES:  title & author
-                        text(  "Project #0:  Hero follows mouse.",   10, width/3 );
-                        text(  "Joe Bloggs, CST 112",   10, height-10 );
-            }
+            // MESSAGES:  title & author
+            text(  "Project #0:  Hero follows mouse.",   10, width/3 );
+            text(  "Joe Bloggs, CST 112",   10, height-10 );
+}
 ```
-
 #### _Examine and run this code:_
 <IMG SRC="http://suffolk.li/img/d1.png" ALIGN=RIGHT>
   [http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java](http://raw.githubusercontent.com/61cst112/tutorial/master/dynamic1.java)  
