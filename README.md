@@ -13,7 +13,7 @@
             ellipse( 200,100, 90,90 );          // Circle with CENTER at (200,100);
 
 ```
-* Semicolon __;__ must end each statement.  <img src= "http://suffolk.li/img/h.png" hspace=20 ALIGN=RIGHT >
+* Semicolon __;__ must end each statement.  <img src= "http://suffolk.li/img/s0.png" hspace=20 ALIGN=RIGHT >
 ```
             // Draw a red house, with roof.
             fill( 255, 0, 0 );                  // Red house 
