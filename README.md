@@ -36,7 +36,7 @@
             //// ZOOG:  draw a creature at (x,y)
 
             {
-                        fill( 255,0,255 );               // Blue creature
+                        fill( 255,0,255 );               // Magenta creature
                         rect( x,y, 50,80 );              // Body
                         ellipse( x+25,y-20, 40,40 );     // Head
             }
