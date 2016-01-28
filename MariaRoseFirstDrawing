@@ -1,65 +1,156 @@
-/* Turtle that blinks
-when you click the mouse button
-character also follows the mouse
-due to the mouseX and mouseY attributes
+/* Turtle that blinks when you click the mouse button
+Character also follows the mouse due to the mouseX and mouseY attributes
+When N button is pressed, scene turns to night
 
 By: Maria Rose Campagna
 
-*/
+CST 112*/
+
+/*LOTS OF FLOATS...WILL BE EDITED TO A SINGULAR FLOAT USING ONLY THE VARIABLE
+BACKR, BACKG, BACKB ONCE THE APPROPRIATE CALCULATIONS ARE MADE*/
+float sunX, sunY;
+float backr; //SKY COLOR
+float backg;
+float backb;
+float sunr; //SUN COLOR
+float sung;
+float sunb;
+float oceanr; //OCEAN COLOR
+float oceang;
+float oceanb;
+float turtler; //TURTLE SHELL, HANDS & FEET
+float turtleg;
+float turtleb;
+float turtr; //TURTLE BELLY & HEAD
+float turtg;
+float turtb;
+
 
 //SETUP
 void setup() {
-size(600,600);
-frameRate(10);
-}
-//BACKGROUND & OTHER ATTRIBUTES
-void draw() {
-  background(144,195,212);
+  size(600,600);
+  frameRate(40);
+
+  sunX = 100; //SUN X,Y VALUES
+  sunY = 100;
+
+  backr= 144; //BACKGROUND COLOR VALUES
+  backg= 195;
+  backb= 212;
+ 
+  sunr= 252; //SUN COLOR VALUES
+  sung= 236;
+  sunb= 144;
+  
+  turtler= 105; //TURTLE SHELL & APPENDAGE COLOR VALUES
+  turtleg= 145;
+  turtleb= 73;
+  
+  turtr= 161; //TURTLE HEAD & BODY COLOR VALUES
+  turtg= 212;
+  turtb= 144;
+  
+  oceanr= 76; //OCEAN COLOR VALUES
+  oceang= 164;
+  oceanb= 144;
+
   smooth();
   noStroke();
-  ellipseMode(CENTER);
-
-//SAND
-  fill(212,161,144);
-  rect(0,250,1200,500);
-  
-//SUN
-  fill(252,236,144);
-  ellipse(100,100,150,150);
-  
-//SHELL
-  fill(105,145,73);
-  ellipse(mouseX,mouseY+200,325,350);
-  
-//BODY
-  fill(161,212,144);
-  ellipse(mouseX,mouseY+200,290,310);
-
-//HEAD 
-  fill(161,212,144);
-  ellipse(mouseX,mouseY,150,150);  
-  
-//EYES
-  fill(255,255,255);
-  ellipse(mouseX-50,mouseY-50,50,50);
-  ellipse(mouseX+50,mouseY-50,50,50);
-  fill(0,0,0);
-  ellipse(mouseX-50,mouseY-50,15,15);
-  ellipse(mouseX+50,mouseY-50,15,15);
-  
-//FEET
-  fill(105,145,73);
-  ellipse(mouseX-150,mouseY+300,125,125);
-  ellipse(mouseX+150,mouseY+300,125,125);
-  
-//HANDS
-  ellipse(mouseX-150,mouseY+100,80,80);
-  ellipse(mouseX+150,mouseY+100,80,80);
 }
 
+//BACKGROUND & OTHER ATTRIBUTES
+void draw() {
+
+  background(backr,backg,backb); //SKY COLOR
+  
+  if (keyPressed) {
+    if (key == 'n' || key == 'N'){
+      background(backr-150, backg-150, backb-150); //NIGHT-TIME SKY COLOR
+  }
+ }
+//ELLIPSE CENTER
+  ellipseMode(CENTER);
+
+//SUN
+   if (keyPressed) {
+      if (key == 'n' || key == 'N'){
+        fill(sunr-188, sung-172, sunb-80); //SUN TURNS TO MOON
+        ellipse(sunX,sunY,150,150);
+  }
+} 
+    else { //SUN COLOR
+        fill(sunr, sung, sunb); 
+        ellipse(sunX,sunY,150,150);
+  }
+
+//OCEAN
+    if (keyPressed) {
+        if (key == 'n' || key == 'N'){
+          fill(oceanr-100, oceang-100, oceanb-100); //NIGHT TIME OCEAN 
+          rect(0,250,1200,500);
+  }
+} 
+    else {
+      fill(oceanr, oceang, oceanb); //DAY TIME OCEAN
+      rect(0,250,1200,500);
+  }
+  
+//SHELL
+    if (keyPressed) {
+      if (key == 'n' || key == 'N'){
+        fill(turtler-100,turtleg-100,turtleb-100); //NIGHT TIME SHELL
+        ellipse(mouseX,mouseY+200,325,350);
+  }
+}
+    else {
+      fill(turtler,turtleg,turtleb); //DAY TIME SHELL
+      ellipse(mouseX, mouseY+200, 325,350);
+  }
+  
+//BODY
+  if (keyPressed) {
+    if (key == 'n' || key == 'N'){
+      fill(turtr-100,turtg-100,turtb-100); //NIGHT BODY & HEAD COLOR
+      ellipse(mouseX,mouseY+200,290,310); //NIGHT-TIME HEAD
+      ellipse(mouseX,mouseY,150,150); //NIGHT-TIME BODY
+  }
+}
+    else {
+      fill(turtr,turtg,turtb); //DAY BODY & HEAD COLOR
+      ellipse(mouseX,mouseY,150,150); //DAY-TIME HEAD
+      ellipse(mouseX,mouseY+200,290,310); //DAY-TIME BODY
+  }
+  
+//EYES
+      fill(255,255,255);
+      ellipse(mouseX-50,mouseY-50,50,50); //LT EYEBALL
+      ellipse(mouseX+50,mouseY-50,50,50); //RT EYEBALL
+      fill(0,0,0);
+      ellipse(mouseX-50,mouseY-50,15,15); //LT IRIS
+      ellipse(mouseX+50,mouseY-50,15,15); //RT IRIS
+  
+//APPENDAGES
+  if (keyPressed) {
+    if (key == 'n' || key == 'N'){
+      fill(turtler-100,turtleg-100,turtleb-100); //NIGHT FEET & HAND COLOR
+      ellipse(mouseX-150,mouseY+300,125,125); //NIGHT-TIME FEET LT
+      ellipse(mouseX+150,mouseY+300,125,125); //NIGHT-TIME FEET RT
+      ellipse(mouseX-150,mouseY+100,80,80); //NIGHT-TIME HANDS LT
+      ellipse(mouseX+150,mouseY+100,80,80); //NIGHT-TIME HANDS RT
+  }
+}
+    else {
+      fill(turtler, turtleg, turtleb);
+      ellipse(mouseX-150,mouseY+300,125,125); //DAY-TIME FEET
+      ellipse(mouseX+150,mouseY+300,125,125);
+      ellipse(mouseX-150,mouseY+100,80,80); //DAY-TIME HANDS
+      ellipse(mouseX+150,mouseY+100,80,80);
+    }
+  }
+
 //BLINKS WHEN MOUSE IS PRESSED
-void mousePressed() {
-  fill(105,145,73);
-  ellipse(mouseX-50,mouseY-50,50,50);
-  ellipse(mouseX+50,mouseY-50,50,50);
+    void mousePressed() {
+      fill(105,145,73);
+      ellipse(mouseX-50,mouseY-50,50,50);
+      ellipse(mouseX+50,mouseY-50,50,50);
 }
